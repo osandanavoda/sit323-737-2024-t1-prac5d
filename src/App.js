@@ -4,7 +4,7 @@ const express = require('express');   //import the Express.js framework into Nod
 const app = express();   //creating new Express Application
 
 
-const PORT = process.env.PORT || 3000;    //Define Port
+const PORT = process.env.PORT || 3040;    //Define Port
 app.listen(PORT, () => {                               //Start Sever 
   console.log(`Server is running on port ${PORT}`);
 });
